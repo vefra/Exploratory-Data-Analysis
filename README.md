@@ -10,25 +10,42 @@ Description: Measurements of electric power consumption in one household with a 
 The following descriptions of the 9 variables in the dataset are taken from the UCI web site:
 
 Date: Date in format dd/mm/yyyy
+
 Time: time in format hh:mm:ss
+
 Global_active_power: household global minute-averaged active power (in kilowatt)
+
 Global_reactive_power: household global minute-averaged reactive power (in kilowatt)
+
 Voltage: minute-averaged voltage (in volt)
+
 Global_intensity: household global minute-averaged current intensity (in ampere)
+
 Sub_metering_1: energy sub-metering No. 1 (in watt-hour of active energy). It corresponds to the kitchen, containing mainly a dishwasher, an oven and a microwave (hot plates are not electric but gas powered).
+
 Sub_metering_2: energy sub-metering No. 2 (in watt-hour of active energy). It corresponds to the laundry room, containing a washing-machine, a tumble-drier, a refrigerator and a light.
+
 Sub_metering_3: energy sub-metering No. 3 (in watt-hour of active energy). It corresponds to an electric water-heater and an air-conditioner.
 # Loading the data
 
 data.frame':	2075259 obs. of  9 variables:
+ 
  $ Date                 : Factor w/ 1442 levels "1/1/2007","1/1/2008",..: 342 342 342 342 342 342 342 342 342 342 ...
+ 
  $ Time                 : Factor w/ 1440 levels "00:00:00","00:01:00",..: 1045 1046 1047 1048 1049 1050 1051 1052 1053 1054 ...
+ 
  $ Global_active_power  : Factor w/ 4187 levels "?","0.076","0.078",..: 2082 2654 2661 2668 1807 1734 1825 1824 1808 1805 ...
+ 
  $ Global_reactive_power: Factor w/ 533 levels "?","0.000","0.046",..: 189 198 229 231 244 241 240 240 235 235 ...
+ 
  $ Voltage              : Factor w/ 2838 levels "?","223.200",..: 992 871 837 882 1076 1010 1017 1030 907 894 ...
+ 
  $ Global_intensity     : Factor w/ 222 levels "?","0.200","0.400",..: 53 81 81 81 40 36 40 40 40 40 ...
+ 
  $ Sub_metering_1       : Factor w/ 89 levels "?","0.000","1.000",..: 2 2 2 2 2 2 2 2 2 2 ...
+ 
  $ Sub_metering_2       : Factor w/ 82 levels "?","0.000","1.000",..: 3 3 14 3 3 14 3 3 3 14 ...
+ 
  $ Sub_metering_3       : num  17 16 17 17 17 17 17 17 17 16 ...
 
 
