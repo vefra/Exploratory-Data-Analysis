@@ -1,5 +1,6 @@
 
 ###  plot 1
+## First plot of the project
 
 #Reading, naming and subsetting power consumption data
 power <- read.table("household_power_consumption.txt",skip=1,sep=";")
